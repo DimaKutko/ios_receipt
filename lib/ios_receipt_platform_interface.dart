@@ -23,11 +23,11 @@ abstract class IosReceiptPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
+  Future<String?> getAppleReceipt() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 
-  Future<String?> getAppleReceipt() {
-    throw UnimplementedError('platformVersion() has not been implemented.');
+  Future<List<Map<String, dynamic>>> getAllTransactions() {
+    throw UnimplementedError('getAllTransactions() has not been implemented.');
   }
 }

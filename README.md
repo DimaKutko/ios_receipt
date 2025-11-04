@@ -13,11 +13,9 @@ dependencies:
 Then, run flutter pub get to install the package.
 
 ## Usage
-
-To obtain the App Store receipt, use the following code:
-
+Method for get transactions with StoreKit2
 ```dart
-final receiptInBase64 = await IosReceipt.getAppleReceipt();
+final transactions = await IosReceipt.getAllTransactions();
 ```
 
 ## Based on
